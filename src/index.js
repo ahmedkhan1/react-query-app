@@ -14,9 +14,7 @@ export default function App() {
     )
   }
 
-  const { data, status } = useQuery('users', fetchUsers)
-
-  console.log(data)
+  const { data, status } = useQuery('users', fetchUsers);
   if (status === 'loading') return <p>Loading...</p>
 
   return (
