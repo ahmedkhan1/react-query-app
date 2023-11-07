@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Hello from './App';
 import './style.css';
 import { useQuery } from 'react-query'
 import { ReactQueryDevtools } from 'react-query-devtools'
