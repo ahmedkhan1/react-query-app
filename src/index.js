@@ -12,8 +12,6 @@ export default function App() {
     )
   }
 
-  
-
   const { data, status } = useQuery('users', fetchUsers)
 
   console.log(data)
