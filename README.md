@@ -1,4 +1,4 @@
 # React Query App
 
-#Description:
+# Description:
 This project contains React Query and shows how it works.
