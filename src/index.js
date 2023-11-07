@@ -5,9 +5,11 @@ import './style.css';
 import { useQuery } from 'react-query'
 import { ReactQueryDevtools } from 'react-query-devtools'
 
+const url ='https://jsonplaceholder.typicode.com/users';
+
 export default function App() {
   function fetchUsers() {
-    return fetch('https://jsonplaceholder.typicode.com/users').then(
+    return fetch(url).then(
       res => res.json()
     )
   }
