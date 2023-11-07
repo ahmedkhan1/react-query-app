@@ -7,7 +7,7 @@ import { ReactQueryDevtools } from 'react-query-devtools'
 
 export default function App() {
   function fetchUsers() {
-    return fetch(url).then(
+    return fetch(process.env.REACT_APP_URL).then(
       res => res.json()
     )
   }
