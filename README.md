@@ -1,4 +1,4 @@
 # React Query App
 
-<h4>Description</h4>
+<h3>Description</h3>
 This project contains React Query and shows how it works.
