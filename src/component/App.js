@@ -3,7 +3,7 @@ import { useQuery } from 'react-query'
 import { ReactQueryDevtools } from 'react-query-devtools'
 
 export default function App() {
-    function fetchUsers() {
+    const fetchUsers = () => {
       return fetch(process.env.REACT_APP_URL).then(
         res => res.json()
       )
