@@ -1,4 +1,6 @@
 import React from 'react';
+import { useQuery } from 'react-query'
+import { ReactQueryDevtools } from 'react-query-devtools'
 
 export default function App() {
     function fetchUsers() {
