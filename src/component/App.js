@@ -16,7 +16,7 @@ export default function App() {
       <div className='list-container'>
         <ReactQueryDevtools/>
         <h1>React query</h1>
-        <ul>
+        <ul className='list'>
           {data && data.map(user =>{
             return(
                 <li key={user.id}>{user.id} && {user.name}</li>
