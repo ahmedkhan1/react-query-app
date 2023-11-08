@@ -17,7 +17,11 @@ export default function App() {
         <ReactQueryDevtools/>
         <h1>React query</h1>
         <ul>
-          {data && data.map(user => <li key={user.id}>{user.name}</li>)}
+          {data && data.map(user =>{
+            return(
+                <li key={user.id}>{user.id} && {user.name}</li>
+            )
+          })}
         </ul>
       </div>
     )
