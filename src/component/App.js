@@ -13,7 +13,7 @@ export default function App() {
     if (status === 'loading') return <p>Loading...</p>
   
     return (
-      <div>
+      <div className='list-container'>
         <ReactQueryDevtools/>
         <h1>React query</h1>
         <ul>
